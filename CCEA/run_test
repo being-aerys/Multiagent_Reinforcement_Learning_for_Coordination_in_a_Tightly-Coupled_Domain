@@ -1,0 +1,9 @@
+python3 setup.py build_ext --inplace
+
+scp ./Cython_Code/supervisor.c ./
+scp ./Cython_Code/ccea.c ./
+scp ./Cython_Code/neural_network.c ./
+scp ./Cython_Code/homogeneous_rewards.c ./
+scp ./Cython_Code/heterogeneous_rewards.c ./
+
+python3 main.py
