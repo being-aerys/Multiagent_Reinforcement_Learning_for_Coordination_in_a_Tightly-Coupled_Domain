@@ -1,4 +1,4 @@
-# Multi-Agent Coordination in a Tightly-Coupled Rover Domain
+# AutoEncoder for Latent Representation Learning and Multi-Agent Coordination using DDPG
 First we use an autoencoder to compress the state representation to one-fourth the original size. Then we train DDPG agents to learn joint optimal policies to observe points of interests in a rover domain using the compressed state representation. The learned policies perform as good as the policies learned with the original state representation.
 
 ## Demo
